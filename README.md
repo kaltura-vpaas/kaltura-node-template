@@ -3,8 +3,15 @@ This section should describe the project in highlevel and provide introduction t
 Provide a highlevel breakdown of features that matter in this project and known limitations this project doesn't handle.
 
 # Documentation and guides
-* A basic node template created using npx express-generator
-* Copy .env.template to .env and fill in your information
+ This project is a basic node template created using npx express-generator
+ Kaltura-specific libraries are included:
+    # "kaltura-client" kaltura node API client in package.json
+    # lib/kalturaClientFactory.js for easy client generation
+    # an ADMIN ks is generated in routes/index.js
+    
+ Copy .env.template to .env and fill in your information
+
+
 * [**Frequently Asked Questions**](http://linktodoc.com)
 * [Project Release Notes](http://linktodoc.com) (see example: [Kaltura server Release Notes](https://github.com/kaltura/server/blob/master/release-notes.md)
 * [Install Guide / Deployment Guide](http://linktodoc.com)
