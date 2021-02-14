@@ -12,8 +12,8 @@ All the necessary components, and some nice-to-haves to get a node app running o
 # How to Run
 1. Copy .env.template to .env and fill in your information
 2. run npm install
-3. run npm run dev for developement
-4. run npm start for production
+3. npm run dev for developement
+4. npm start for production
 
 # How you can help (guidelines for contributors) 
 Thank you for helping Kaltura grow! If you'd like to contribute please follow these steps:
