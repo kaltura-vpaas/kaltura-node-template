@@ -1,9 +1,19 @@
 var express = require('express');
 var router = express.Router();
+const kaltura = require('kaltura-client');
+var KalturaClientFactory = require('../lib/kalturaClientFactory');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/', async function (req, res, next) {
+  try {
+    //you probably want to make an api call with client
+    var adminks = await KalturaClientFactory.getKS('', { type: kaltura.enums.SessionType.ADMIN });
+    var client = await KalturaClientFactory.getClient(adminks);
+
+    res.render('index', { title: 'Express' });
+  } catch (e) {
+    res.render('error', { message: e, error: e });
+  }
 });
 
 module.exports = router;
