@@ -1,8 +1,7 @@
-# Name of the Project here
-This section should describe the project in highlevel and provide introduction to what this repository is all about and who it is relevant for.  
-Provide a highlevel breakdown of features that matter in this project and known limitations this project doesn't handle.
+# Kaltura Node Template
+All of the necessary components to get a basic node app running with the Kaltura node API.
 
-# Documentation and guides
+# Documentation
  This project is a basic node template created using npx express-generator
  Kaltura-specific libraries are included:
 
@@ -11,20 +10,6 @@ Provide a highlevel breakdown of features that matter in this project and known 
 3. an ADMIN ks is generated in routes/index.js
 
  Copy .env.template to .env and fill in your information
-
-
-* [**Frequently Asked Questions**](http://linktodoc.com)
-* [Project Release Notes](http://linktodoc.com) (see example: [Kaltura server Release Notes](https://github.com/kaltura/server/blob/master/release-notes.md)
-* [Install Guide / Deployment Guide](http://linktodoc.com)
-* [Setup Guide](http://linktodoc.com)
-* [User Guide](http://linktodoc.com)
-* [Testing and QA Guide](http://linktodoc.com)
-* [Doc Title X](http://linktodoc.com)
-
-# Project Specific Sections and Information
-Every project has its own important information to expose, place it here under clear titles and text.  
-If you need assistance with writing, structure or unsure what's important or not - email community@kaltura.com and we'll assist.  
-**Don’t get lazy just because "it is for developers"** - Visitors of your repository will want to know how to work with this project, how to extend this code, how to configure it, and more. The more guidelines and information you'll provide the easier it will be for others to use, and contribute to the project.
 
 # How you can help (guidelines for contributors) 
 Thank you for helping Kaltura grow! If you'd like to contribute please follow these steps:
