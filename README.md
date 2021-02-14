@@ -1,4 +1,4 @@
-# Kaltura Node Template
+# Kaltura Node-JS Template
 All the necessary components, and some nice-to-haves to get a node app running on the Kaltura node API.
 
 # Documentation
