@@ -5,10 +5,11 @@ Provide a highlevel breakdown of features that matter in this project and known 
 # Documentation and guides
  This project is a basic node template created using npx express-generator
  Kaltura-specific libraries are included:
-    # "kaltura-client" kaltura node API client in package.json
-    # lib/kalturaClientFactory.js for easy client generation
-    # an ADMIN ks is generated in routes/index.js
-    
+
+1. "kaltura-client" kaltura node API client in package.json
+2. lib/kalturaClientFactory.js for easy client generation
+3. an ADMIN ks is generated in routes/index.js
+
  Copy .env.template to .env and fill in your information
 
 
