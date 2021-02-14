@@ -1,5 +1,5 @@
 # Kaltura Node Template
-All of the necessary components to get a basic node app running with the Kaltura node API.
+All the necessary components to get a node app running on the Kaltura node API.
 
 # Documentation
  This project is a basic node template created using npx express-generator
