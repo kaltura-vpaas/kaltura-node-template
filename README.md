@@ -9,7 +9,11 @@ All the necessary components, and some nice-to-haves to get a node app running o
 2. lib/kalturaClientFactory.js for easy client generation
 3. an ADMIN ks is generated in routes/index.js
 
- Copy .env.template to .env and fill in your information
+# How to Run
+1. Copy .env.template to .env and fill in your information
+2. run npm install
+3. run npm run dev for developement
+4. run npm start for production
 
 # How you can help (guidelines for contributors) 
 Thank you for helping Kaltura grow! If you'd like to contribute please follow these steps:
