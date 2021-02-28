@@ -10,7 +10,7 @@ All the necessary components, and some nice-to-haves to get a node.js app runnin
 3. an ADMIN ks is generated in routes/index.js
 
 # How to Run
-1. Copy .env.template to .env and fill in your information
+1. Copy env.template to .env and fill in your information
 2. run npm install
 3. npm run dev for developement
 4. npm start for production
