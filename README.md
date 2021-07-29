@@ -10,10 +10,11 @@ All the necessary components, and some nice-to-haves to get a node.js app runnin
 3. an ADMIN ks is generated in routes/index.js
 
 # How to Run
-1. Copy env.template to .env and fill in your information
-2. run npm install
-3. npm run dev for developement
-4. npm start for production
+1. Install https://nodejs.org/en/
+2. Copy env.template to .env and fill in your information
+3. run npm install
+4. npm run dev for developement
+5. npm start for production
 
 # How you can help (guidelines for contributors) 
 Thank you for helping Kaltura grow! If you'd like to contribute please follow these steps:
